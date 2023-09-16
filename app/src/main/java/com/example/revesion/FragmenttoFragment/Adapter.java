@@ -17,12 +17,14 @@ public class Adapter extends RecyclerView.Adapter<Adapter.MyViewHolder> {
     ArrayList<Name> nameArrayList;
     Context context;
     MyLestiner lestiner;
+    First3Fragment.OnFragmentClicklisener onFragmentClicklisener;
 
 
 
-    public Adapter(ArrayList<Name> nameArrayList,MyLestiner lestiner) {
+    public Adapter(ArrayList<Name> nameArrayList,MyLestiner lestiner, First3Fragment.OnFragmentClicklisener onFragmentClicklisener) {
         this.nameArrayList =nameArrayList ;
         this.lestiner=lestiner;
+        this.onFragmentClicklisener=onFragmentClicklisener;
 
     }
     @NonNull
@@ -37,8 +39,13 @@ public class Adapter extends RecyclerView.Adapter<Adapter.MyViewHolder> {
         int pos=position;
 Name name=nameArrayList.get(pos);
 holder.name.setText(name.getName());
-
-
+//lestiner.onclick(nameArrayList.get(pos));
+holder.itemView.setOnClickListener(new View.OnClickListener() {
+    @Override
+    public void onClick(View v) {
+      lestiner.onclick(nameArrayList.get(pos));
+    }
+});
     }
 
     @Override
