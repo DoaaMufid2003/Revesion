@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="DesignSurface">
+    <option name="filePathToZoomLevelMap">
+      <map>
+        <entry key="../../../../layout/custom_preview.xml" value="0.2734375" />
+        <entry key="app/src/main/res/layout/activity_main.xml" value="0.2261764526367187" />
+        <entry key="app/src/main/res/layout/activity_main2.xml" value="0.246875" />
+        <entry key="app/src/main/res/layout/activity_main3.xml" value="0.246875" />
+        <entry key="app/src/main/res/layout/activity_main4.xml" value="0.11302083333333333" />
+        <entry key="app/src/main/res/layout/activity_main5.xml" value="0.24710083007812503" />
+        <entry key="app/src/main/res/layout/activity_notification.xml" value="0.246875" />
+        <entry key="app/src/main/res/layout/activity_thread.xml" value="0.246875" />
+        <entry key="app/src/main/res/layout/customitem.xml" value="0.246875" />
+        <entry key="app/src/main/res/layout/fragment_first.xml" value="0.11302083333333333" />
+        <entry key="app/src/main/res/layout/fragment_first2.xml" value="0.11302083333333333" />
+        <entry key="app/src/main/res/layout/fragment_first3.xml" value="0.246875" />
+        <entry key="app/src/main/res/layout/fragment_secound.xml" value="0.246875" />
+      </map>
+    </option>
+  </component>
+  <component name="ProjectRootManager" version="2" languageLevel="JDK_11" default="true" project-jdk-name="Android Studio default JDK" project-jdk-type="JavaSDK">
+    <output url="file://$PROJECT_DIR$/build/classes" />
+  </component>
+  <component name="ProjectType">
+    <option name="id" value="Android" />
+  </component>
+</project>
