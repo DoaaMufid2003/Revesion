@@ -17,11 +17,13 @@ import java.util.TimerTask;
 public class ThreadActivity extends AppCompatActivity {
     com.example.revesion.databinding.ActivityThreadBinding binding;
     boolean iswhite=true;
+    //القيمة الي بينتهي عندها timer
     private static final int TARGET_NUMBER = 5;
     private static final long DELAY_MILLIS = 1000; // الفاصل الزمني بالميلي ثانية
     private int counter = 0;
     private Handler handler = new Handler();
     private ProgressBar progressBar;
+
     private int progressValue = 5;
     @Override
     protected void onCreate(Bundle savedInstanceState) {
