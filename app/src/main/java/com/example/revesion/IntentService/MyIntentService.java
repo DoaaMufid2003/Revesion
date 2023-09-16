@@ -65,7 +65,7 @@ public class MyIntentService extends IntentService {
     protected void onHandleIntent(Intent intent) {
         for (int i = 0; i < 1000000; i++) {
             if (i%1000==0){
-                Log.d("tag", String.valueOf(i));
+//                Log.d("tag", String.valueOf(i));
             }
         }
 
